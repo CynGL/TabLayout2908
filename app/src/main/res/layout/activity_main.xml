@@ -14,17 +14,20 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gatos"></com.google.android.material.tabs.TabItem>
+            android:text="GATOS">
+        </com.google.android.material.tabs.TabItem>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cachorros"></com.google.android.material.tabs.TabItem>
+            android:text="CACHORROS">
+        </com.google.android.material.tabs.TabItem>
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Roedores"></com.google.android.material.tabs.TabItem>
+            android:text="ROEDORES">
+        </com.google.android.material.tabs.TabItem>
 
     </com.google.android.material.tabs.TabLayout>
 
