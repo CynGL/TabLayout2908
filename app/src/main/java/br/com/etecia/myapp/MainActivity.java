@@ -19,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        tabLayout = findViewById(R.id.tabLayout);
+        viewPager2 = findViewById(R.id.viewPager);
+
+        myViewPagerAdapter = new MyViewPagerAdapter(this);
+
+        viewPager2.setAdapter(myViewPagerAdapter);
     }
 }
